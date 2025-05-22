@@ -34,7 +34,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <span className="text-forlivium-red text-2xl font-bold">フォリビウム</span>
+          <img src="favicon-32x32.png" alt="logo" />
           <span className="text-forlivium-black text-xl font-medium">Forlivium</span>
         </div>
 
@@ -46,12 +46,16 @@ const Navbar = () => {
           <a href="#community" className="text-forlivium-black hover:text-forlivium-red transition-colors">
             Community
           </a>
-          <a href="#connect" className="text-forlivium-black hover:text-forlivium-red transition-colors">
-            Connect
+          <a href="#contact" className="text-forlivium-black hover:text-forlivium-red transition-colors">
+            Contact Us
           </a>
-          <Button className="bg-forlivium-red hover:bg-forlivium-red/80 text-white">
+          <a href="https://discord.gg/ZP6jehQfBv" 
+              target="_blank" 
+              rel="noopener noreferrer">
+            <Button className="bg-forlivium-red hover:bg-forlivium-red/80 text-white">
             Join Discord
           </Button>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -86,11 +90,10 @@ const Navbar = () => {
               Community
             </a>
             <a 
-              href="#connect" 
+              href="#contact" 
               className="text-forlivium-black hover:text-forlivium-red transition-colors px-4 py-2"
               onClick={() => setIsMenuOpen(false)}
-            >
-              Connect
+            >Contact
             </a>
             <Button className="bg-forlivium-red hover:bg-forlivium-red/80 text-white mx-4">
               Join Discord

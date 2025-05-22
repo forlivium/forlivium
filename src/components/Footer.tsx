@@ -13,11 +13,11 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <span className="text-forlivium-red text-2xl font-bold">フォリビウム</span>
+              <img src="favicon-32x32.png" alt="logo" />
               <span className="text-white text-xl font-medium">Forlivium</span>
             </div>
             <p className="text-gray-300 max-w-sm">
-              A Web3 community with Japanese influence, bringing together blockchain enthusiasts worldwide.
+              An Indonesian Web3 community, bringing together blockchain enthusiasts worldwide.
             </p>
           </div>
           
@@ -36,7 +36,7 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-4 text-forlivium-red">Connect With Us</h3>
             <div className="flex space-x-4">
               <a 
-                href="https://discord.gg/" 
+                href="https://discord.gg/ZP6jehQfBv" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors"
@@ -44,7 +44,7 @@ const Footer = () => {
                 <DiscordIcon className="h-6 w-6" />
               </a>
               <a 
-                href="https://t.me/" 
+                href="https://t.me/Forlivium" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors"

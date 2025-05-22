@@ -21,8 +21,7 @@ const AboutSection = () => {
             <span className="text-forlivium-red">Forlivium</span>
           </h2>
           <p className="text-lg text-gray-700">
-            Forlivium is a Web3 community that blends blockchain innovation with Japanese cultural influences. 
-            We bring together enthusiasts, developers, and investors to build the future of decentralized technology.
+            Forlivium is an Indonesian Web3 community. Whether you're hunting for the hottest Web3 jobs, chasing the next big airdrop, or diving into real-time updates and insightful member discussions — you've found your tribe.
           </p>
         </div>
         
@@ -32,10 +31,9 @@ const AboutSection = () => {
               <div className="mx-auto mb-4 w-16 h-16 rounded-full bg-forlivium-red/10 flex items-center justify-center">
                 <div className="cherry-blossom scale-75 opacity-60"></div>
               </div>
-              <h3 className="text-xl font-bold mb-2 text-forlivium-black">Japanese Influence</h3>
+              <h3 className="text-xl font-bold mb-2 text-forlivium-black">Web3 Jobs</h3>
               <p className="text-gray-600">
-                Our community embodies the precision and innovation of Japanese culture,
-                applying these principles to blockchain development.
+                Looking to break into the Web3 space or level up your career? We’ve got a curated list of remote-friendly, high-potential jobs from top crypto and blockchain projects. Get noticed, get hired, and build the future — one block at a time.
               </p>
             </CardContent>
           </Card>
@@ -45,10 +43,9 @@ const AboutSection = () => {
               <div className="mx-auto mb-4 w-16 h-16 rounded-full bg-forlivium-red/10 flex items-center justify-center">
                 <div className="web3-coin scale-50 opacity-60"></div>
               </div>
-              <h3 className="text-xl font-bold mb-2 text-forlivium-black">Web3 Innovation</h3>
+              <h3 className="text-xl font-bold mb-2 text-forlivium-black">Airdrops</h3>
               <p className="text-gray-600">
-                We're at the forefront of blockchain technology, focusing on creating useful
-                applications that drive real-world adoption.
+                Don’t miss your shot at free crypto! We track and share legit, up-to-date airdrops so you can earn while exploring new projects. No fluff — just real opportunities to grow your wallet balance.
               </p>
             </CardContent>
           </Card>
@@ -58,10 +55,9 @@ const AboutSection = () => {
               <div className="mx-auto mb-4 w-16 h-16 rounded-full bg-forlivium-red/10 flex items-center justify-center">
                 <div className="torii-gate scale-50 opacity-60"></div>
               </div>
-              <h3 className="text-xl font-bold mb-2 text-forlivium-black">Global Community</h3>
+              <h3 className="text-xl font-bold mb-2 text-forlivium-black">News & Tech</h3>
               <p className="text-gray-600">
-                With over 1000 members worldwide, we've built a diverse ecosystem of blockchain
-                enthusiasts sharing knowledge and opportunities.
+                Stay in the loop with fresh updates, trends, and tech breakthroughs from across the Web3 world. From major protocol changes to hidden alpha, we break it down so you don’t miss a thing. Learn, discuss, and stay ahead of the game.
               </p>
             </CardContent>
           </Card>

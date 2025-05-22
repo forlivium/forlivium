@@ -28,23 +28,24 @@ const HeroSection = () => {
             </h1>
             
             <p className="text-lg md:text-xl text-forlivium-black/80 max-w-lg">
-              Join our thriving Web3 community with Japanese influence. 
-              Connect with 1000+ blockchain enthusiasts and innovators.
+              Discover the latest Web3 job listings, exclusive airdrop alerts, and real-time updates from fellow members. Join the conversation, stay ahead, and thrive in the decentralized future.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button size="lg" className="bg-forlivium-red hover:bg-forlivium-red/90 text-white">
-                Join Discord
+              <a href="#community">
+                <Button size="lg" className="bg-forlivium-red hover:bg-forlivium-red/90 text-white">
+                Unlock the chain
               </Button>
-              <Button size="lg" variant="outline" className="border-forlivium-red text-forlivium-red hover:bg-forlivium-red/5">
+              </a>
+              <a href="#about">
+                <Button size="lg" variant="outline" className="border-forlivium-red text-forlivium-red hover:bg-forlivium-red/5">
                 Learn More
               </Button>
+              </a>
             </div>
           </div>
           
           <div className="relative h-64 md:h-96">
-            {/* Mount Fuji CSS Illustration */}
-            <div className="mount-fuji absolute bottom-0 right-0 opacity-90"></div>
             
             {/* Web3 Icon */}
             <div className="web3-coin absolute top-10 right-20 spin-slow">
